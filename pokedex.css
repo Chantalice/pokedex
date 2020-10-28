@@ -1,0 +1,69 @@
+
+@import "responsive.css";
+
+@media (min-width: 320px) {
+  #bottom, #top {
+    display: none;}
+} 
+
+{margin:0;
+padding:0;
+}
+body{
+  /*height: 80vh;*/
+  /*background: #999595;*/
+  width:100%;
+  display: flex;
+  justify-content:center;
+	align-items: center;
+	font-size: 3vw;
+  line-height: 4vh;
+  background: #EFEFBB;
+  background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+  background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+}
+
+ .pokemon{
+  text-align:center;
+  width: 30vw;
+  height:80vh;
+  background-color: #eee;
+  border-radius: 3em;
+  box-shadow: 0 1em 2em rgba(100, 100, 100, 0.5);
+  margin: 0 1em 0 1em;
+  padding: 2em;
+}
+
+button{
+  width: 6vw;
+  height: 4vh;
+  margin: 1em;
+  border-radius: 50em;
+}
+
+.pokemon img{
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 15vw;
+  height: 25vh;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+
+.pokemon .name{
+  line-height: 5vh;
+	font-size: 3vw;
+  margin: 0.5em 1em 1em 0.5em;
+}
+
+.pokemon .details {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  font-size: 1.5vw;
+  margin : 1em 0 0;
+}
+
+
+
+
