@@ -18,16 +18,17 @@ body{
 	align-items: center;
 	font-size: 3vw;
   line-height: 4vh;
-  background: #EFEFBB;
-  background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
-  background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+  background-color: #eee;
+  background: -webkit-linear-gradient(40deg, pink, blue);
+  background: linear-gradient(40deg, pink, violet);
 }
 
  .pokemon{
   text-align:center;
   width: 30vw;
-  height:80vh;
-  background-color: #eee;
+  height:70vh;
+  background: -webkit-linear-gradient(40deg, yellow, red, yellow);
+  background: linear-gradient(40deg, yellow, red, yellow);
   border-radius: 3em;
   box-shadow: 0 1em 2em rgba(100, 100, 100, 0.5);
   margin: 0 1em 0 1em;
@@ -35,10 +36,11 @@ body{
 }
 
 button{
-  width: 6vw;
-  height: 4vh;
+  width: 10vw;
+  height: 7vh;
   margin: 1em;
-  border-radius: 50em;
+  border-radius: 30em;
+  background-color:   ;
 }
 
 .pokemon img{
@@ -51,9 +53,9 @@ button{
 }
 
 .pokemon .name{
-  line-height: 5vh;
+  line-height: 4vh;
 	font-size: 3vw;
-  margin: 0.5em 1em 1em 0.5em;
+  margin: 0em 1em 1em 0.5em;
 }
 
 .pokemon .details {
